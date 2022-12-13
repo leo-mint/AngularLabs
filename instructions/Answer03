@@ -1,0 +1,12 @@
+1. "index": "src/index.html",
+
+3. "main": "src/main.ts",
+
+5. platformBrowserDynamic().bootstrapModule(AppModule)
+6. import { AppModule } from './app/app.module';
+
+8. bootstrap: [AppComponent]
+9. import { AppComponent } from './app.component';
+10. title = 'Northwind Traders Warehouse Management';
+11. selector: 'app-root',
+12. templateUrl: './app.component.html',
